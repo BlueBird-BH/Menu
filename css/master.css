@@ -143,3 +143,16 @@ table {
 table p {
   color: var(--blanco);
 }
+
+button {
+  background: #eab300;
+  border-style: none;
+  padding: 10px 50px;
+  border-radius: 50em;
+  cursor:pointer;
+  transition: background-color 2s, width 1s;
+}
+
+button:hover {
+  background-color: darkred;
+}
