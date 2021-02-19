@@ -160,3 +160,11 @@ button:hover {
 label {
   color: #eab300;
 }
+
+input {
+  background: #eab300;
+  border-style: none;
+  padding: 10px 50px;
+  border-radius: 50em;
+  cursor:pointer;
+}
