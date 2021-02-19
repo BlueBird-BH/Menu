@@ -8,10 +8,12 @@ function agregarProducto(valor_Producto, valor_Precio) {
   let body_tabla = document.getElementById("compra_Lista");
 
   td_Producto.id = "producto_Nombre";
-  td_Producto.innerText = valor_Producto;
+//  td_Producto.innerText = valor_Producto;
+  td_Producto.innerHTML = `<input readonly type='text' name="nombre1" value='${producto_Nombre}'>`;
 
   td_Precio.id = "producto_Precio";
-  td_Precio.innerText = valor_Precio;
+//  td_Precio.innerText = valor_Precio;
+  td_Producto.innerHTML = `<input readonly type='text' name="precio1" value='${producto_Precio}'>`;
 
   compra_Total += valor_Precio;
   td_Total.innerText = compra_Total;
@@ -22,6 +24,6 @@ function agregarProducto(valor_Producto, valor_Precio) {
 }
 
 function enviarOrden() {
-  
+
 
 }

@@ -34,7 +34,7 @@
     <!-- Aside -->
     <aside>
         <h2>Su pedido</h2>
-        <form action="">
+        <form action="pedidos.html">
 
           <table>
             <thead>
@@ -53,6 +53,18 @@
               </tr>
             </tfoot>
           </table>
+            <p>
+              <label for="">Nombre: </label>
+              <input required type="text" name="cliente" placeholder="Ingrese su nombre">
+            </p>
+            <p>
+              <label for="">Direccion: </label>
+              <input required type="text" name="direccion" placeholder="Ingrese su direccion">
+            </p>
+            <p>
+              <label for="">Telefono: </label>
+              <input required type="text" name="telefono" placeholder="Ingrese su telefono">
+            </p>
 
           <button onclick="enviarOrden">Enviar</button>
           <input type="submit" value="Guardar">
