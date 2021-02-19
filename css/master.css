@@ -156,3 +156,7 @@ button {
 button:hover {
   background-color: darkred;
 }
+
+label {
+  color: #eab300;
+}
