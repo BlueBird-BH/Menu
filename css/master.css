@@ -49,6 +49,15 @@ h1 {
   text-transform: uppercase;
 }
 
+@media only screen and (max-width: 600px) {
+  header{
+    justify-content: center;
+  }
+  h1 {
+    display: none;
+  }
+}
+
 h2 {
   font-family: 'Kaushan Script', cursive;
   text-align: center;
